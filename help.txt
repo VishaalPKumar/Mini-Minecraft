@@ -1,2 +1,0 @@
-04-08-2024: Went to Professor Mally's OH to debug an issue with chunks not rendering on screen. The issue was due to uniform variables in the Lambertian vertex shader (the model and inverse matrices), not being set, which caused them to be zeroed out/contain garbage values.
-04-23-2024: Went to Prof Mally's OH to debug issue with placing blocks not working after adding in multithreading and textures. It ended up being an issue with not clearing the existing member variable vectors storing the VBO data before adding new elements to them.
